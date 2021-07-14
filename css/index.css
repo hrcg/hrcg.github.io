@@ -92,7 +92,7 @@ i {
 
 .hero-image {
   order: 1;
-  width: 50%;
+  width: 450px;
 }
 
 .hero-text {
@@ -132,7 +132,7 @@ i {
 
 @media screen and (min-width: 432px) {
   .hero-image {
-    width: 250px;
+    width: 500px;
   }
 }
 
