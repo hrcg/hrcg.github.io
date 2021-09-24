@@ -122,6 +122,12 @@ i {
   width: 200px;
 }
 
+@media (max-width: 629px) {
+  .hero-image {
+    display: none;
+  }
+}
+
 .hero-text {
   margin: 0 0 0.25rem 0;
   font-size: 145%;
