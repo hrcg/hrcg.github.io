@@ -2,14 +2,12 @@
 <html lang="en">
   <head>
     <meta name="description" content="Software Engineer from Albania" />
-    <!-- Facebook Meta Tags -->
+    <!-- Meta Tags -->
     <meta property="og:url" content="http://www.hrcg.dev" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Erald Kuci — Webdev" />
     <meta property="og:description" content="Software Engineer from Albania" />
     <meta property="og:image" content="https://i.imgur.com/3phdRJ0.png" />
-
-    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Erald Kuci — Webdev" />
     <meta name="twitter:description" content="Software Engineer from Albania" />
@@ -20,6 +18,7 @@
     />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon link -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -42,12 +41,23 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
+
     <link rel="stylesheet" href="css/index.css" type="text/css" />
     <link rel="stylesheet" href="css/dayNight.css" type="text/css" />
     <title>Erald Kuci — Webdev</title>
   </head>
-
+  <!-- Dark/Light mode selector -->
   <body class="dark-mode">
+    <!-- Change Language Option
+      <div>
+      <button type="button" id="english" class="btn btn-outline-success">
+        English
+      </button>
+      <button type="button" id="albanian" class="btn btn-outline-danger">
+        Albanian
+      </button>
+    </div>
+  -->
     <label class="dayNight hidden">
       <input type="checkbox" checked />
       <div></div>
@@ -123,5 +133,21 @@
       </header>
     </div>
     <script src="js/dayNight.js"></script>
+    <script src="js/localization.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
