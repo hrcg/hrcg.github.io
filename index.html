@@ -48,16 +48,7 @@
   </head>
   <!-- Dark/Light mode selector -->
   <body class="dark-mode">
-    <!-- Change Language Option
-      <div>
-      <button type="button" id="english" class="btn btn-outline-success">
-        English
-      </button>
-      <button type="button" id="albanian" class="btn btn-outline-danger">
-        Albanian
-      </button>
-    </div>
-  -->
+    <!-- Change Language Option -->
     <label title="Theme" class="dayNight hidden">
       <input type="checkbox" checked />
       <div></div>
@@ -68,7 +59,7 @@
     <div class="container">
       <header class="hero">
         <div class="hero-content">
-          <h1 class="hero-text-main">
+          <h1 id="hello" class="hero-text-main">
             👋 Hi, I'm
             <b>
               <a
@@ -80,7 +71,7 @@
               ></b
             >
           </h1>
-          <p class="hero-text">
+          <p id="jrdev" class="hero-text">
             I'm a
             <b><span class="text-pink-500">junior Web Developer</span></b> based
             in <b>Albania</b> who likes to code and solve problems. <br />
@@ -94,8 +85,8 @@
             >
           </p>
 
-          <p class="hero-text">
-            <b style="font-size: 130%">I am also available for hire!</b>
+          <p id="hire" class="hero-text">
+            <b style="font-size: 110%">I am also available for hire!</b>
           </p>
 
           <div class="hero-icons">
@@ -137,6 +128,22 @@
               rel="noopener noreferrer"
               >RESUME</a
             >
+            <a
+              href=""
+              id="english"
+              title="Change Language to English"
+              class="fa-stack"
+            >
+              🇬🇧
+            </a>
+            <a
+              href=""
+              id="albanian"
+              title="Change Language to Albanian"
+              class="fa-stack"
+            >
+              🇦🇱
+            </a>
           </div>
         </div>
         <img
@@ -148,7 +155,7 @@
       </header>
     </div>
     <script src="js/dayNight.js"></script>
-    <!--<script src="js/localization.js"></script>
+    <script src="js/localization.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -163,6 +170,6 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
-    ></script>-->
+    ></script>
   </body>
 </html>
