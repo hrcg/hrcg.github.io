@@ -63,7 +63,7 @@ function setLanguage(getLanguage) {
       target="_blank"
       rel="noopener noreferrer"
       href="https://blog.hrcg.dev/"
-      ><b>blogut tim!</b></a
-    >`;
+      ><b>blogut</b></a
+    > tim!`;
   }
 }
