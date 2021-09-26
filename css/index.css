@@ -193,3 +193,9 @@ i {
   --tw-text-opacity: 1;
   color: rgba(236, 72, 153, var(--tw-text-opacity));
 }
+
+.langICO {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
