@@ -57,13 +57,13 @@ function setLanguage(getLanguage) {
     jrdev.innerHTML = `Jam një
     <b><span class="text-pink-500">junior Web Developer</span></b> me qendër 
     në <b>Shqipëri</b>, dhe i apasionuar pas programimit. <br />
-    Hidhini një sy 
+    Hidhini një sy disa nga
     <a
       title="Blog"
       target="_blank"
       rel="noopener noreferrer"
-      href="https://blog.hrcg.dev/"
-      ><b>blogut</b></a
-    > tim!`;
+      href="https://projects.hrcg.dev/"
+      ><b>projekteve</b></a
+    > të mia!`;
   }
 }
