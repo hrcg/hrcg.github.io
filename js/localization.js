@@ -33,13 +33,13 @@ function setLanguage(getLanguage) {
     jrdev.innerHTML = `I'm a
     <b><span class="text-pink-500">junior Web Developer</span></b> based
     in <b>Albania</b> who likes to code and solve problems. <br />
-    Feel free to check out my
-    <a
-      title="Blog"
+    Check out some of my
+     <a
+      title="Projects"
       target="_blank"
       rel="noopener noreferrer"
-      href="https://blog.hrcg.dev/"
-      ><b>blog!</b></a
+      href="https://projects.hrcg.dev/"
+      ><b>projects!</b></a
     >`;
   } else if (getLanguage === "albanian") {
     hello.innerHTML = `👋 Ç'kemi, unë jam
