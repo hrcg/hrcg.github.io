@@ -1,8 +1,8 @@
 .dayNight {
   cursor: pointer;
   position: absolute;
-  top: 20px;
-  right: 30px;
+  top: 40px;
+  right: 100px;
 }
 
 .dayNight input {
