@@ -37,9 +37,8 @@ function setLanguage(getLanguage) {
     Check out some of my
      <a
       title="Projects"
-      target="_blank"
       rel="noopener noreferrer"
-      href="https://projects.hrcg.dev/"
+      href="#projects"
       ><b>projects!</b></a
     >`;
   } else if (getLanguage === "albanian") {
@@ -62,9 +61,8 @@ function setLanguage(getLanguage) {
     Hidhini një sy disa nga
     <a
       title="Blog"
-      target="_blank"
       rel="noopener noreferrer"
-      href="https://projects.hrcg.dev/"
+      href="#projects"
       ><b>projekteve</b></a
     > të mia!`;
   }
