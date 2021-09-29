@@ -19,9 +19,10 @@ onload = () => {
 };
 function setLanguage(getLanguage) {
   if (getLanguage === "english") {
-    hello.innerHTML = `👋 Hi, I'm
+    hello.innerHTML = `<span class="wave">👋</span> Hi, I'm
     <b>
       <a
+        class="underline"
         target="_blank"
         title="My LinkedIn"
         rel="noopener noreferrer"
@@ -42,10 +43,11 @@ function setLanguage(getLanguage) {
       ><b>projects!</b></a
     >`;
   } else if (getLanguage === "albanian") {
-    hello.innerHTML = `👋 Ç'kemi, unë jam
+    hello.innerHTML = `<span class="wave">👋</span> Ç'kemi, unë jam
     <br>
     <b>
       <a
+        class="underline"
         target="_blank"
         title="My LinkedIn"
         rel="noopener noreferrer"
