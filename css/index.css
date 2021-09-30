@@ -247,3 +247,15 @@ i {
     transform: rotate(0deg);
   }
 }
+
+/* Sroll back to top button */
+
+#myBtn {
+  background-color: transparent;
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 35px;
+  z-index: 99;
+  cursor: pointer;
+}
