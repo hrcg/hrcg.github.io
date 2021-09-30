@@ -3,7 +3,7 @@
 .header {
   background-color: transparent;
   position: absolute;
-  width: 40%;
+  width: 30%;
   z-index: 3;
   top: 10px;
   right: 10px;
@@ -60,17 +60,17 @@
 }
 
 .header .menu-icon .navicon {
-  background: var(--h2-color);
+  background: #ec4899;
   display: block;
-  height: 3px;
+  height: 2px;
   position: relative;
   transition: background 0.2s ease-out;
-  width: 20px;
+  width: 18px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: var(--h2-color);
+  background: #ec4899;
   content: "";
   display: block;
   height: 100%;
