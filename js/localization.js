@@ -39,7 +39,7 @@ function setLanguage(getLanguage) {
       title="Projects"
       rel="noopener noreferrer"
       href="#projects"
-      ><b>projects!</b></a
+      ><b class="text-pink-500">projects!</b></a
     >`;
   } else if (getLanguage === "albanian") {
     hello.innerHTML = `<span class="wave">👋</span> Ç'kemi, unë jam
@@ -63,7 +63,7 @@ function setLanguage(getLanguage) {
       title="Blog"
       rel="noopener noreferrer"
       href="#projects"
-      ><b>projekteve</b></a
+      ><b class="text-pink-500">projekteve</b></a
     > të mia!`;
   }
 }
