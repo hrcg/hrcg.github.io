@@ -12,6 +12,13 @@
   }
 }
 
+@media (max-width: 375px) {
+  .dayNight {
+    top: 25px;
+    right: 320px;
+  }
+}
+
 .dayNight input {
   display: none;
 }
