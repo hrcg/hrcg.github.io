@@ -5,6 +5,13 @@
   right: 100px;
 }
 
+@media (max-width: 5in) {
+  .dayNight {
+    top: 18px;
+    right: 80px;
+  }
+}
+
 .dayNight input {
   display: none;
 }
