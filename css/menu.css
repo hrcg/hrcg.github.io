@@ -60,7 +60,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: #ec4899;
+  background: var(--h2-color);
   display: block;
   height: 2px;
   position: relative;
@@ -70,7 +70,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: #ec4899;
+  background: var(--h2-color);
   content: "";
   display: block;
   height: 100%;
