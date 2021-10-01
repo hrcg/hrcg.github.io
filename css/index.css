@@ -16,6 +16,10 @@
   --text-color: #444452;
   --background-color: #f8fbf8;
   --h2-color: rgba(236, 72, 153);
+  --icons-color: rgba(236, 72, 153);
+  --icons-color-hover: rgb(194, 29, 111);
+  --icons-inner-color: #fff;
+  --icons-text-color: #fff;
   --underline-color: rgba(236, 72, 153);
   --underline-color-hover: rgb(219, 55, 137);
 }
@@ -23,6 +27,10 @@
 .dark-mode {
   --text-color: #ffffff;
   --background-color: #111827;
+  --icons-color: #64ffda;
+  --icons-color-hover: #29d4ad;
+  --icons-inner-color: black;
+  --icons-text-color: black;
   --h2-color: #64ffda;
   --underline-color: #64ffda;
   --underline-color-hover: #1cd1a7;
@@ -60,12 +68,12 @@ b {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--icons-color);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--primary-color-dark);
+  color: var(--icons-color-hover);
 }
 
 i {
@@ -81,12 +89,12 @@ i {
 }
 
 .fa-square {
-  color: white;
+  color: var(--icons-inner-color);
   transform: scale(0.9);
 }
 
 *::selection {
-  background: var(--moon-color);
+  background: var(--icons-inner-color);
   color: white;
 }
 
@@ -142,16 +150,17 @@ i {
 
 .resume-button {
   font-size: 0.75rem;
-  color: white;
-  background-color: var(--primary-color);
+  font-weight: 700;
+  color: var(--icons-text-color);
+  background-color: var(--icons-color);
   border-radius: 3px;
   padding: 5px 15px;
   margin-top: -1px;
 }
 
 .resume-button:hover {
-  color: white;
-  background-color: var(--primary-color-dark);
+  color: var(--icons-text-color);
+  background-color: var(--icons-color-hover);
 }
 
 @media screen and (min-width: 432px) {
