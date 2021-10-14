@@ -15,7 +15,6 @@
 .light-mode {
   --text-color: #444452;
   --background-color: #f8fbf8;
-  --h2-color: rgba(236, 72, 153);
   --icons-color: rgba(236, 72, 153);
   --icons-color-hover: rgb(194, 29, 111);
   --icons-inner-color: #fff;
@@ -31,7 +30,6 @@
   --icons-color-hover: #29d4ad;
   --icons-inner-color: black;
   --icons-text-color: black;
-  --h2-color: #64ffda;
   --underline-color: #64ffda;
   --underline-color-hover: #1cd1a7;
 }
