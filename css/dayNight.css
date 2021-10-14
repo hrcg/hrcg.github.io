@@ -1,21 +1,21 @@
 .dayNight {
   cursor: pointer;
   position: absolute;
-  top: 40px;
-  right: 100px;
+  top: 1rem;
+  right: 6.25rem;
 }
 
-@media (max-width: 5in) {
+@media (max-width: 480px) {
   .dayNight {
-    top: 25px;
-    right: 350px;
+    top: 1.5625rem;
+    right: 21.875rem;
   }
 }
 
 @media (max-width: 375px) {
   .dayNight {
-    top: 25px;
-    right: 320px;
+    top: 1.4rem;
+    right: 18rem;
   }
 }
 
@@ -25,8 +25,8 @@
 
 .dayNight input + div {
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
+  width: 2.25rem;
+  height: 2.25rem;
   position: relative;
   box-shadow: inset 16px -16px 0 0 var(--moon-color);
   transform: scale(1) rotate(-2deg);
@@ -46,8 +46,8 @@
 
 .dayNight input + div:after {
   content: "";
-  width: 8px;
-  height: 8px;
+  width: 0.5rem;
+  height: 0.5rem;
   border-radius: 50%;
   margin: -4px 0 0 -4px;
   position: absolute;
