@@ -119,9 +119,7 @@
   top: 0;
 }
 
-/* 48em = 768px */
-
-@media (min-width: 48em) {
+@media (min-width: 700px) {
   .header {
     top: 0;
     right: 0;
@@ -179,15 +177,20 @@
   width: 100%;
 }
 
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 480px) {
+  .header {
+    top: 0;
+    right: 0;
+    background-color: var(--nav-bg-color);
+  }
   .header .menu-icon {
-    padding: 2.5rem 1.25rem;
+    padding: 2.5rem 1.5rem;
   }
   .sticky {
-    position: absolute;
+    width: 100%;
   }
   #header {
     display: block;
-    width: 90%;
+    width: 100%;
   } /* show it on small screens */
 }
