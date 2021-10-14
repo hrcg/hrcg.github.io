@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import "daynight.css";
+@import "menu.css";
+@import "projects.css";
+@import "scrollbar.css";
 
 :root {
   --primary-color: #7f8ced;
@@ -15,10 +19,12 @@
 .light-mode {
   --text-color: #444452;
   --background-color: #f8fbf8;
+  --nav-bg-color: rgb(236, 236, 236);
   --icons-color: rgba(236, 72, 153);
   --icons-color-hover: rgb(194, 29, 111);
   --icons-inner-color: #fff;
   --icons-text-color: #fff;
+  --nav-onhover: rgb(197, 29, 113);
   --underline-color: rgba(236, 72, 153);
   --underline-color-hover: rgb(219, 55, 137);
 }
@@ -26,10 +32,12 @@
 .dark-mode {
   --text-color: #ffffff;
   --background-color: #111827;
+  --nav-bg-color: #0c111d;
   --icons-color: #64ffda;
   --icons-color-hover: #29d4ad;
   --icons-inner-color: black;
   --icons-text-color: black;
+  --nav-onhover: #15b38e;
   --underline-color: #64ffda;
   --underline-color-hover: #1cd1a7;
 }
@@ -97,7 +105,7 @@ i {
 }
 
 .container {
-  padding: 0rem 1rem;
+  padding: 2.5rem 1rem;
   width: 100%;
   box-sizing: border-box;
 }
@@ -274,4 +282,30 @@ i {
   right: 35px;
   z-index: 99;
   cursor: pointer;
+}
+
+#typewriter {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 5vw;
+  line-height: 7.8vw;
+  text-align: center;
+}
+
+.blink {
+  animation: blink-animation 1400ms steps(2, start) infinite;
+  -webkit-animation: blink-animation 1400ms steps(2, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
