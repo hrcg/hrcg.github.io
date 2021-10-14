@@ -1,12 +1,8 @@
 /* header */
 
 .header {
-  background-color: transparent;
-  position: absolute;
-  width: 50%;
+  background-color: var(--nav-bg-color);
   z-index: 3;
-  top: 10px;
-  right: 20px;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.44);
 }
 
@@ -127,7 +123,6 @@
     display: grid;
     grid-template-columns: 1fr auto minmax(300px, 4fr) 1fr;
     background-color: var(--nav-bg-color);
-    width: 100%;
   }
   .header .menu {
     position: relative;
@@ -147,13 +142,11 @@
     margin-bottom: 0;
   }
   .header ul {
-    background-color: transparent;
     display: flex;
   }
   .header li a {
     position: relative;
-    padding: 20px 30px;
-    border-right: 1px solid transparent;
+    padding: 20px 20px 15px;
     color: var(--h2-color);
     font-weight: 700;
     font-size: 1.2rem;
