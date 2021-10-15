@@ -62,7 +62,7 @@
 }
 
 .header .menu-icon .navicon {
-  background: var(--h2-color);
+  background: var(--icons-color);
   display: block;
   height: 3px;
   width: 25px;
@@ -72,7 +72,7 @@
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-  background: var(--h2-color);
+  background: var(--icons-color);
   content: "";
   display: block;
   height: 100%;
@@ -147,7 +147,7 @@
   .header li a {
     position: relative;
     padding: 20px 20px 15px;
-    color: var(--h2-color);
+    color: var(--icons-color);
     font-weight: 700;
     font-size: 1.2rem;
   }
@@ -176,6 +176,9 @@
     top: 0;
     right: 0;
     background-color: var(--nav-bg-color);
+  }
+  .header li a {
+    padding: 10px 10px 7px;
   }
   .header .menu-icon {
     padding: 2.5rem 1.5rem;
