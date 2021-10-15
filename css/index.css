@@ -3,6 +3,7 @@
 @import "menu.css";
 @import "projects.css";
 @import "scrollbar.css";
+@import "contact.css";
 
 :root {
   --primary-color: #7f8ced;
@@ -127,6 +128,13 @@ i {
   width: 200px;
 }
 
+.projects-header-text {
+  --tw-text-opacity: 1;
+  color: var(--icons-color);
+  font-size: 2.5rem;
+  margin-left: 85px;
+  position: relative;
+}
 @media (max-width: 875px) {
   .hero-image {
     display: none;
@@ -197,12 +205,12 @@ i {
 
 .text-pink-500 {
   --tw-text-opacity: 1;
-  color: var(--h2-color);
+  color: var(--icons-color);
 }
 
 .text-pink-500 b {
   --tw-text-opacity: 1;
-  color: var(--h2-color);
+  color: var(--icons-color);
 }
 
 .langICO {
