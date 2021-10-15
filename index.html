@@ -27,8 +27,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
-    <link rel="preload" href="css/index.css" media="screen" as="style" />
-    <link rel="stylesheet" href="css/index.css" media="screen" />
+    <link rel="preload" href="css/main.css" media="screen" as="style" />
+    <link rel="stylesheet" href="css/main.css" media="screen" />
       <script src="https://cdn.jsdelivr.net/npm/ionicons@5.5.3/dist/ionicons/ionicons.js" async defer></script>
   <script nomodule="" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.3/dist/ionicons/ionicons.esm.js" async
     defer></script>
@@ -53,7 +53,7 @@
     <div class="container">
       <!-- Main Content -->
       <header class="hero">
-        <div class="hero-content" id=typ>
+        <div class="hero-content">
           <h1 id="hello" class="hero-text-main">
             <span class="wave">👋</span> Hi, I'm
             <b>
@@ -69,7 +69,7 @@
           </h1>
           <p id="jrdev" class="hero-text">
             I'm a
-            <b><span class="text-pink-500"> Web Developer</span></b> based in
+            <b><span class="highlighted-text"> Web Developer</span></b> based in
             <b>Albania</b> who likes to code and solve problems. 
           </p>
           <p id="hire" class="hero-text">
@@ -109,11 +109,14 @@
             </a>
             <a
               title="Resume"
-              class="resume-button"
+              class="fa-stack"
               href="assets/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              >RESUME</a
+              >              
+              <i class="fas fa-stack-2x fa-square"></i>
+              <i class="fas fa-stack-2x fa-file-alt"></i>
+              </a
             >
             <!-- Change Language Buttons -->
             <img
@@ -225,7 +228,6 @@
             <ion-icon class="tag__icon tag__icon--typescript md hydrated" name="logo-javascript" role="img" aria-label="logo typescript"></ion-icon>Typescript
           </div>
         </div>
-      
   </section>
   <!-- Contact Sections -->
   <section id="contact">
@@ -269,7 +271,7 @@
           rel="noopener noreferrer"
           >
           <i class="fas fa-stack-2x fa-square"></i>
-          <i class="fas fa-stack-2x fa-file"></i>
+          <i class="fas fa-stack-2x fa-file-alt"></i>
           </a
         >
     </div>
@@ -278,8 +280,6 @@
       id="myBtn" stroke="currentColor" fill="#64ffda" stroke-width="0" viewBox="0 0 512 512" 
       height="2.3em" width="2.3em" onclick="topFunction()"
       xmlns="http://www.w3.org/2000/svg">
-      
-     
       <path d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z"></path></svg>
     <!-- Sripts -->
     <script src="js/dayNight.js"></script>

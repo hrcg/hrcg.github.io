@@ -48,13 +48,6 @@
   color: var(--text-color);
 }
 
-@media (max-width: 5in) {
-  .logo {
-    top: 20px;
-    right: 265px;
-  }
-}
-
 html,
 body {
   margin: 0;
@@ -71,7 +64,7 @@ h6 {
 }
 
 b {
-  font-weight: 600;
+  font-weight: 700;
 }
 
 a {
@@ -113,6 +106,7 @@ i {
 
 .hero {
   height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -132,7 +126,7 @@ i {
   --tw-text-opacity: 1;
   color: var(--icons-color);
   font-size: 2.5rem;
-  margin-left: 85px;
+  margin-left: 5.3125rem;
   position: relative;
 }
 @media (max-width: 875px) {
@@ -168,7 +162,7 @@ i {
   color: var(--icons-text-color);
   background-color: var(--icons-color);
   border-radius: 3px;
-  padding: 5px 15px;
+  padding: 0.3125rem 0.9375rem;
   margin-top: -1px;
 }
 
@@ -179,19 +173,20 @@ i {
 
 @media screen and (min-width: 432px) {
   .hero-image {
-    width: 500px;
+    width: 31.25rem;
   }
 }
 
 @media screen and (min-width: 1300px) {
   .container {
-    width: 1250px;
+    width: 85%;
     margin: 0 auto;
   }
 
   .hero {
     flex-direction: row;
     justify-content: space-between;
+    font-size: 1.1vw;
   }
 
   .hero-content {
@@ -200,22 +195,23 @@ i {
 
   .hero-image {
     order: 1;
+    width: 30%;
   }
 }
 
-.text-pink-500 {
+.highlighted-text {
   --tw-text-opacity: 1;
   color: var(--icons-color);
 }
 
-.text-pink-500 b {
+.highlighted-text b {
   --tw-text-opacity: 1;
   color: var(--icons-color);
 }
 
 .langICO {
-  width: 35px;
-  height: 35px;
+  width: 2.1875rem;
+  height: 2.1875rem;
   cursor: pointer;
 }
 
@@ -286,34 +282,8 @@ i {
   background-color: transparent;
   display: none;
   position: fixed;
-  bottom: 40px;
-  right: 35px;
+  bottom: 2.5rem;
+  right: 2.1875rem;
   z-index: 99;
   cursor: pointer;
-}
-
-#typewriter {
-  color: white;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 5vw;
-  line-height: 7.8vw;
-  text-align: center;
-}
-
-.blink {
-  animation: blink-animation 1400ms steps(2, start) infinite;
-  -webkit-animation: blink-animation 1400ms steps(2, start) infinite;
-}
-
-@keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
-}
-
-@-webkit-keyframes blink-animation {
-  to {
-    visibility: hidden;
-  }
 }
