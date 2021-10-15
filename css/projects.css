@@ -208,10 +208,8 @@
 .project__image {
   width: 100%;
   height: 100%;
-  border-radius: 0.8vw;
   cursor: pointer;
   transition: 0.2s ease-in;
-  overflow: hidden;
   border-radius: 1vw 1vw 1vw 1vw;
   overflow: hidden;
 }
@@ -223,10 +221,14 @@
     padding-top: 25vw;
   }
 
+  .project__image {
+    visibility: hidden;
+  }
+
   .projects__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.5fr 0.7fr 1fr;
+    /*grid-template-rows: 0.5fr 0.7fr 1fr;*/
     gap: 0px 0px;
     grid-template-areas:
       "Project1 Project1"
@@ -264,6 +266,7 @@
     border-left: 1px solid #202121;
     border-right: 1px solid #202121;
     overflow: hidden;
+    display: none;
   }
 
   .Project1-Info {
@@ -284,6 +287,7 @@
     border-left: 1px solid #202121;
     border-right: 1px solid #202121;
     overflow: hidden;
+    display: none;
   }
 
   .Project2-Info {
@@ -304,6 +308,7 @@
     border-left: 1px solid #202121;
     border-right: 1px solid #202121;
     overflow: hidden;
+    display: none;
   }
 
   .Project3-Info {
