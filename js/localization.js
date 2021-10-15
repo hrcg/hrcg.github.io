@@ -33,14 +33,7 @@ function setLanguage(getLanguage) {
     hire.innerHTML = `<b style="font-size: 110%">I am also available for hire!</b>`;
     jrdev.innerHTML = `I'm a
     <b><span class="text-pink-500"> Web Developer</span></b> based
-    in <b>Albania</b> who likes to code and solve problems. <br />
-    Check out some of my
-     <a
-      title="Projects"
-      rel="noopener noreferrer"
-      href="#projects"
-      ><b class="text-pink-500">projects!</b></a
-    >`;
+    in <b>Albania</b> who likes to code and solve problems.`;
   } else if (getLanguage === "albanian") {
     hello.innerHTML = `<span class="wave">👋</span> Ç'kemi, unë jam
     <br>
@@ -57,13 +50,6 @@ function setLanguage(getLanguage) {
     hire.innerHTML = `<b style="font-size: 110%">Gjithashtu jam i disponueshëm për punë!</b>`;
     jrdev.innerHTML = `Jam një
     <b><span class="text-pink-500"> Web Developer</span></b> me qendër 
-    në <b>Shqipëri</b>, dhe i apasionuar pas programimit. <br />
-    Hidhini një sy disa nga
-    <a
-      title="Blog"
-      rel="noopener noreferrer"
-      href="#projects"
-      ><b class="text-pink-500">projekteve</b></a
-    > të mia!`;
+    në <b>Shqipëri</b>, dhe i apasionuar pas programimit.`;
   }
 }

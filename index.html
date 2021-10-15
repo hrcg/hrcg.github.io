@@ -29,9 +29,12 @@
     />
     <link rel="preload" href="css/index.css" media="screen" as="style" />
     <link rel="stylesheet" href="css/index.css" media="screen" />
+      <script src="https://cdn.jsdelivr.net/npm/ionicons@5.5.3/dist/ionicons/ionicons.js" async defer></script>
+  <script nomodule="" src="https://cdn.jsdelivr.net/npm/ionicons@5.5.3/dist/ionicons/ionicons.esm.js" async
+    defer></script>
     <title>Erald Kuci</title>
   </head>
-  <!-- Dark/Light mode selector -->
+  <!-- Nav Bar with Dark/Light mode selector -->
   <body class="dark-mode">
     <header id="header" class="header sticky">
       <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -40,6 +43,7 @@
         <li><a class="nav-link" href="https://hrcg.dev/">HOME</a></li>
         <li><a class="nav-link" href="https://hrcg.dev/#projects">PROJECTS</a></li>
         <li><a class="nav-link" href="https://blog.hrcg.dev/">BLOG</a></li>
+        <li><a class="nav-link" href="https://hrcg.dev/#contact">CONTACT</a></li>
       </ul>
       <label title="Theme" class="dayNight hidden">
         <input type="checkbox" checked />
@@ -66,14 +70,7 @@
           <p id="jrdev" class="hero-text">
             I'm a
             <b><span class="text-pink-500"> Web Developer</span></b> based in
-            <b>Albania</b> who likes to code and solve problems. <br />
-            Check out some of my
-            <a
-              title="Projects"
-              rel="noopener noreferrer"
-              href="#projects"
-              ><b class="text-pink-500">projects!</b></a
-            >
+            <b>Albania</b> who likes to code and solve problems. 
           </p>
           <p id="hire" class="hero-text">
             <b style="font-size: 110%">I am also available for hire!</b>
@@ -142,77 +139,149 @@
       </header>
     </div>
     <header>
-      <h1><b class="projects-text-title">/software-creations</b></h1>
+      <h1><b class="projects-header-text">/software-creations</b></h1>
     </header>
-    <!-- Projects -->
-    <section class="wrap" id="projects">
-      <div class="tile"> 
-        <img 
-        alt="Image"
-        title="Image"
-        src='https://i.postimg.cc/DzgtM7PD/image.png?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=996&q=80'/>
-        <div class="text">
-          <a 
-          title="Click to open in a new tab"
-          href="https://hrcg.dev/weather-app/"
-          target="_blank"
-          rel="noopener noreferrer">
-        <h1><b>Moti / Weather App</b></h1>
-        <h2>HTML/CSS/JS/API</h2>
-        <p>Weather App that utilizes OpenWeatherMap API.</p>
-      </a>
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="projects__grid">
+        <div class="Project1">
+          <a href="https://hrcg.dev/" target="_blank" rel="noopener"><img class="project__image" src="./assets/img/hrcg.avif" alt="Project 1" title="" style=""></a>
         </div>
+        <div class="Project1-Info">
+          <h2 class="project__title">hrcg.dev</h2>
+          <div class="project__external">
+            <a href="https://github.com/hrcg/hrcg.github.io" target="_blank" rel="noopener">
+              <ion-icon class="project__external__icon" name="logo-github"></ion-icon>
+            </a>
+            <a href="https://hrcg.dev/" target="_blank" rel="noopener">
+              <ion-icon class="project__external__icon md hydrated" name="open" role="img" aria-label="open"></ion-icon>
+            </a>
+          </div>
+          <p class="project__description">
+            My portfolio website. There have been various iterations on its design and features.
+            I plan to continue improving on it over time.
+          </p>
+          <div class="tag tag--html">
+            <ion-icon class="tag__icon tag__icon--html md hydrated" name="logo-html5" role="img" aria-label="logo html5"></ion-icon>HTML
+          </div>
+          <div class="tag tag--css">
+            <ion-icon class="tag__icon tag__icon--css md hydrated" name="logo-css3" role="img" aria-label="logo css3"></ion-icon>CSS
+          </div>
+          <div class="tag tag--javascript">
+            <ion-icon class="tag__icon tag__icon--javascript md hydrated" name="logo-javascript" role="img" aria-label="logo javascript"></ion-icon>Javascript
+          </div>
         </div>
-       </div>
-      
-      <div class="tile"> 
-        <img 
-        alt="Image"
-        title="Image"
-        src='https://i.postimg.cc/DzgtM7PD/image.png?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1004&q=80'/>
-        <div class="text">
-          <a 
-          title="Click to open in a new tab"
-          href="https://perkufizim.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer">
-        <h1><b>Përkufizim / Dictionary</b></h1>
-        <h2>Angular/Firebase/API</h2>
-        <p>Dictionary website, powered by Pearson Dictionary API.</p>
-      </a>
-        </div>
-        </div>
-       </div>
         
-        <div class="tile"> 
-        <img 
-        alt="Image"
-        title="Image"
-        src='https://i.postimg.cc/DzgtM7PD/image.png?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80'/>
-        <div class="text">
-          <a 
-          title="Click to open in a new tab"
-          href="https://movietracker-59fff.firebaseapp.com/nowPlaying/1"
+        <div class="Project2">
+          <a href="https://hrcg.dev/weather-app" target="_blank" rel="noopener"><img class="project__image" src="./assets/img/moti.avif" alt="Project 2" title="Weather App" style=""></a>
+        </div>
+        <div class="Project2-Info">
+          <h2 class="project__title">Moti / Weather App</h2>
+          <div class="project__external">
+            <a href="https://github.com/hrcg/weather-app/" target="_blank" rel="noopener">
+              <ion-icon class="project__external__icon" name="logo-github"></ion-icon>
+            </a>
+            <a href="https://hrcg.dev/weather-app/" target="_blank" rel="noopener">
+              <ion-icon class="project__external__icon md hydrated" name="open" role="img" aria-label="open"></ion-icon>
+            </a>
+          </div>
+          <p class="project__description">
+            Weather app that uses OpenWeatherMap API to get weather data.
+          </p>
+          <div class="tag tag--html">
+            <ion-icon class="tag__icon tag__icon--html md hydrated" name="logo-html5" role="img" aria-label="logo html5"></ion-icon>HTML
+          </div>
+          <div class="tag tag--css">
+            <ion-icon class="tag__icon tag__icon--css md hydrated" name="logo-css3" role="img" aria-label="logo css3"></ion-icon>CSS
+          </div>
+          <div class="tag tag--javascript">
+            <ion-icon class="tag__icon tag__icon--javascript md hydrated" name="logo-javascript" role="img" aria-label="logo javascript"></ion-icon>Javascript
+          </div>
+        </div>
+        
+        <div class="Project3">
+          <a href="https://perkufizim.netlify.app/" target="_blank" rel="noopener"><img class="project__image" src="./assets/img/perkufizim.avif" alt="Project 3" title="Dictionary Site" style=""></a>
+        </div>
+        <div class="Project3-Info">
+          <h2 class="project__title">Perkufizim</h2>
+          <div class="project__external">
+            <a href="https://github.com/hrcg/Liberfy/" target="_blank" rel="noopener">
+              <ion-icon class="project__external__icon" name="logo-github"></ion-icon>
+            </a>
+            <a href="https://perkufizim.netlify.app/" target="_blank" rel="noopener">
+              <ion-icon class="project__external__icon md hydrated" name="open" role="img" aria-label="open"></ion-icon>
+            </a>
+          </div>
+          <p class="project__description">
+            Dictionary website, powered by Pearson Dictionary API.
+          </p>
+          <div class="tag tag--angular">
+            <ion-icon class="tag__icon tag__icon--angular md hydrated" name="logo-angular" role="img" aria-label="logo angular"></ion-icon>Angular
+          </div>
+          <div class="tag tag--api">
+            <ion-icon class="tag__icon tag__icon--api md hydrated" name="link-outline" role="img" aria-label="logo api"></ion-icon>API
+          </div>
+          <div class="tag tag--typescript">
+            <ion-icon class="tag__icon tag__icon--typescript md hydrated" name="logo-javascript" role="img" aria-label="logo typescript"></ion-icon>Typescript
+          </div>
+        </div>
+      
+  </section>
+  <!-- Contact Sections -->
+  <section id="contact">
+    <div id="contact__info">
+      <h2 id="contact__title">
+        Reach Out To Me.
+      </h2>
+      <div id="contact__subtext">
+        <p>
+          I'm currently open to work as a Front-end Developer.</p>
+        <p>
+          Contact me and let's talk more.</p>
+        <p></p>
+      </div>
+      <div class="contact-section-icons">
+        <a
+          title="LinkedIn"
+          class="fa-stack"
+          href="https://www.linkedin.com/in/erald-kuci"
           target="_blank"
-          rel="noopener noreferrer">
-        <h1><b>MovieTracker</b></h1>
-        <h2>Angular/Firebase/API</h2>
-        <p>Get information on new movie releases. Track your watched movies and get suggestions.</p>
-      </a>
-        </div>
-        </div>
-       </div>
-      </div>
-      </div>
-      <br>
-      <br>
-      <br>
-    </section>
+          rel="noopener noreferrer"
+        >
+          <i class="fas fa-stack-2x fa-square"></i>
+          <i class="fab fa-stack-2x fa-linkedin"></i>
+        </a>
+        <a
+          title="Contact me"
+          class="fa-stack"
+          href="mailto:aldikuci@gmail.com?subject=From Website"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fas fa-stack-2x fa-square"></i>
+          <i class="fas fa-stack-2x fa-envelope-square"></i>
+        </a>
+        <a
+          title="Resume"
+          class="fa-stack"
+          href="assets/resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          <i class="fas fa-stack-2x fa-square"></i>
+          <i class="fas fa-stack-2x fa-file"></i>
+          </a
+        >
+    </div>
+  </section>
     <svg 
       id="myBtn" stroke="currentColor" fill="#64ffda" stroke-width="0" viewBox="0 0 512 512" 
       height="2.3em" width="2.3em" onclick="topFunction()"
       xmlns="http://www.w3.org/2000/svg">
+      
+     
       <path d="M8 256C8 119 119 8 256 8s248 111 248 248-111 248-248 248S8 393 8 256zm231-113.9L103.5 277.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L256 226.9l101.6 101.6c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L273 142.1c-9.4-9.4-24.6-9.4-34 0z"></path></svg>
+    <!-- Sripts -->
     <script src="js/dayNight.js"></script>
     <script src="js/localization.js"></script>
     <script src="js/menu.js"></script>
