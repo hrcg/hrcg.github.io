@@ -129,6 +129,12 @@ i {
   margin-left: 5.3125rem;
   position: relative;
 }
+
+@media (max-width: 430px) {
+  .projects-header-text {
+    margin: 0 auto;
+  }
+}
 @media (max-width: 875px) {
   .hero-image {
     display: none;
@@ -173,7 +179,6 @@ i {
 
 .projects-header-text {
   font-size: 2.2rem;
-  margin: 0 auto;
 }
 
 @media screen and (min-width: 432px) {
