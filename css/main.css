@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import "dayNight.css";
 @import "menu.css";
 @import "projects.css";
@@ -8,8 +9,8 @@
 :root {
   --primary-color: #7f8ced;
   --primary-color-dark: #5867e8;
-  --sun-color: #eda97f;
-  --moon-color: #7fc3ed;
+  --sun-color: #ffcc33;
+  --moon-color: #51a5da;
   --bg: hsl(0, 100%, 10%);
   --color: hsl(0, 0%, 100%);
   --underline-width: 8px;
