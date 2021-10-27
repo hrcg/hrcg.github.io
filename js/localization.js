@@ -34,6 +34,21 @@ function setLanguage(getLanguage) {
     jrdev.innerHTML = `I'm a
     <b><span class="highlighted-text"> Web Developer</span></b> based
     in <b>Albania</b> who likes to code and solve problems.`;
+    navHome.innerHTML = `HOME`;
+    navProjects.innerHTML = `PROJECTS`;
+    navBlog.innerHTML = `BLOG`;
+    navContact.innerHTML = `CONTACT`;
+    projectsheaderTitle.innerHTML = `<b class="projects-header-text">/software-creations</b>`;
+    p1desc.innerHTML = `My portfolio website. There have been various iterations on its design and features.
+    I plan to continue improving on it over time.`;
+    p2desc.innerHTML = `Weather app that uses OpenWeatherMap API to get weather data.`;
+    p3desc.innerHTML = `Dictionary website, powered by Pearson Dictionary API.`;
+    contact__title.innerHTML = `Reach Out To Me.`;
+    contact__subtext.innerHTML = `<p>
+    I'm currently open to work as a Front-end Developer.</p>
+    <p>
+    Contact me and let's talk more.
+    </p>`;
   } else if (getLanguage === "albanian") {
     hello.innerHTML = `<span class="wave">👋</span> Ç'kemi, unë jam
     <br>
@@ -51,5 +66,21 @@ function setLanguage(getLanguage) {
     jrdev.innerHTML = `Jam një
     <b><span class="highlighted-text"> Web Developer</span></b> me qendër 
     në <b>Shqipëri</b>, dhe i apasionuar pas programimit.`;
+    navHome.innerHTML = `KREU`;
+    navProjects.innerHTML = `PROJEKTET`;
+    navBlog.innerHTML = `BLOG`;
+    navContact.innerHTML = `KONTAKT`;
+    projectsheaderTitle.innerHTML = `<b class="projects-header-text">/krijime-softuerike</b>`;
+    p1desc.innerHTML = `Website-i im. Ka patur shumë versione dhe ndryshime mbi pamjen.
+    Kam në plan ta mirëmbaj dhe ta përmirësoj gjatë kohës.`;
+    p2desc.innerHTML = `App moti që përdor OpenWeatherMap API për të marë të dhënat mbi motin.`;
+    p3desc.innerHTML = `Website fjalori, fuqizuar nga Pearson Dictionary API.`;
+    contact__title.innerHTML = `Më Kontaktoni.`;
+    contact__subtext.innerHTML = `<p>
+    Momentalisht jam i hapur të punoj si Front-end Developer.
+    </p>
+    <p>
+    Më kontaktoni dhe le të flasim më tej.
+    </p>`;
   }
 }

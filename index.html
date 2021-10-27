@@ -40,10 +40,10 @@
       <input class="menu-btn" type="checkbox" id="menu-btn" />
       <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
       <ul class="menu">
-        <li><a class="nav-link" href="https://hrcg.dev/">HOME</a></li>
-        <li><a class="nav-link" href="https://hrcg.dev/#projects">PROJECTS</a></li>
-        <li><a class="nav-link" href="https://blog.hrcg.dev/">BLOG</a></li>
-        <li><a class="nav-link" href="https://hrcg.dev/#contact">CONTACT</a></li>
+        <li><a class="nav-link" href="https://hrcg.dev/" id="navHome">HOME</a></li>
+        <li><a class="nav-link" href="https://hrcg.dev/#projects" id="navProjects">PROJECTS</a></li>
+        <li><a class="nav-link" href="https://blog.hrcg.dev/" id="navBlog">BLOG</a></li>
+        <li><a class="nav-link" href="https://hrcg.dev/#contact" id="navContact">CONTACT</a></li>
       </ul>
       <label title="Theme" class="dayNight hidden">
         <input type="checkbox" checked />
@@ -141,7 +141,7 @@
       </header>
     </div>
     <header>
-      <h1><b class="projects-header-text">/software-creations</b></h1>
+      <h1 id="projectsheaderTitle"><b class="projects-header-text">/software-creations</b></h1>
     </header>
     <!-- Projects Section -->
     <section id="projects">
@@ -159,7 +159,7 @@
               <ion-icon class="project__external__icon md hydrated" name="open" role="img" aria-label="open"></ion-icon>
             </a>
           </div>
-          <p class="project__description">
+          <p class="project__description" id="p1desc">
             My portfolio website. There have been various iterations on its design and features.
             I plan to continue improving on it over time.
           </p>
@@ -187,7 +187,7 @@
               <ion-icon class="project__external__icon md hydrated" name="open" role="img" aria-label="open"></ion-icon>
             </a>
           </div>
-          <p class="project__description">
+          <p class="project__description" id="p2desc">
             Weather app that uses OpenWeatherMap API to get weather data.
           </p>
           <div class="tag tag--html">
@@ -214,7 +214,7 @@
               <ion-icon class="project__external__icon md hydrated" name="open" role="img" aria-label="open"></ion-icon>
             </a>
           </div>
-          <p class="project__description">
+          <p class="project__description" id="p3desc">
             Dictionary website, powered by Pearson Dictionary API.
           </p>
           <div class="tag tag--angular">
