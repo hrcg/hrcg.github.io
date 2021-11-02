@@ -53,6 +53,7 @@ html,
 body {
   margin: 0;
   background-color: var(--background-color);
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -126,14 +127,18 @@ i {
 .projects-header-text {
   --tw-text-opacity: 1;
   color: var(--icons-color);
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-left: 5.3125rem;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (max-width: 430px) {
   .projects-header-text {
     margin: 0 auto;
+    font-size: 2.2rem;
   }
 }
 @media (max-width: 875px) {
@@ -160,7 +165,7 @@ i {
 }
 
 .hero-icons > *:not(:last-child) {
-  margin-right: 1rem;
+  margin-right: 0.5rem;
 }
 
 .resume-button {
@@ -178,13 +183,19 @@ i {
   background-color: var(--icons-color-hover);
 }
 
-.projects-header-text {
-  font-size: 2.2rem;
-}
-
 @media screen and (min-width: 432px) {
   .hero-image {
     width: 31.25rem;
+  }
+}
+
+@media screen and (min-width: 1660px) {
+  .resume-button {
+    font-size: 1.1rem;
+  }
+  .langICO {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
 
@@ -208,6 +219,11 @@ i {
     order: 1;
     width: 40%;
   }
+
+  #myBtn {
+    height: 3rem;
+    width: 3rem;
+  }
 }
 
 .highlighted-text {
@@ -221,8 +237,8 @@ i {
 }
 
 .langICO {
-  width: 2.1875rem;
-  height: 2.1875rem;
+  width: 2.2rem;
+  height: 2.2rem;
   cursor: pointer;
 }
 
@@ -297,4 +313,15 @@ i {
   right: 2.1875rem;
   z-index: 99;
   cursor: pointer;
+}
+
+.fadein {
+  opacity: 0;
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.fadein.visible {
+  opacity: 1;
+  transform: translate(0, 0);
 }
