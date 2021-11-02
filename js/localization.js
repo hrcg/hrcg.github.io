@@ -73,7 +73,7 @@ function setLanguage(getLanguage) {
     projectsheaderTitle.innerHTML = `<b class="projects-header-text">/krijime-softuerike</b>`;
     p1desc.innerHTML = `Website-i im. Ka patur shumë versione dhe ndryshime mbi pamjen.
     Kam në plan ta mirëmbaj dhe ta përmirësoj gjatë kohës.`;
-    p2desc.innerHTML = `App moti që përdor OpenWeatherMap API për të marë të dhënat mbi motin.`;
+    p2desc.innerHTML = `Aplikacion moti që përdor OpenWeatherMap API për të marrë të dhënat mbi motin.`;
     p3desc.innerHTML = `Website fjalori, fuqizuar nga Pearson Dictionary API.`;
     contact__title.innerHTML = `Më Kontaktoni.`;
     contact__subtext.innerHTML = `<p>
