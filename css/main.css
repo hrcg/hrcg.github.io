@@ -20,8 +20,8 @@
 
 .light-mode {
   --text-color: #444452;
-  --background-color: #f8fbf8;
-  --nav-bg-color: rgb(236, 236, 236);
+  --background-color: rgb(236, 236, 236);
+  --nav-bg-color: #f8fbf8;
   --icons-color: rgba(236, 72, 153);
   --icons-color-hover: rgb(194, 29, 111);
   --icons-inner-color: #fff;
@@ -33,8 +33,8 @@
 
 .dark-mode {
   --text-color: #ffffff;
-  --background-color: #111827;
-  --nav-bg-color: #0c1320;
+  --background-color: #0c1320;
+  --nav-bg-color: #111827;
   --icons-color: #64ffda;
   --icons-color-hover: #29d4ad;
   --icons-inner-color: black;
