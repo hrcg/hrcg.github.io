@@ -171,11 +171,15 @@
   .header {
     top: 0;
     right: 0;
-    background-color: var(--nav-bg-color);
+    background-color: var(--background-color);
+  }
+  .header ul {
+    background-color: var(--background-color);
   }
   .header li a {
     padding: 15px 15px 9px;
     font-size: 1.3rem;
+    background-color: var(--background-color);
   }
   .header .menu-icon {
     padding: 2.5rem 1.5rem;
