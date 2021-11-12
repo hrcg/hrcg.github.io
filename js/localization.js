@@ -46,9 +46,8 @@ function setLanguage(getLanguage) {
     contact__title.innerHTML = `Reach Out To Me.`;
     contact__subtext.innerHTML = `<p>
     I'm currently open to work as a Front-end Developer.</p>
-    <p>
-    Contact me and let's talk more.
-    </p>`;
+  <p>
+    <a href="mailto:aldikuci@gmail.com" class="highlighted-text">Contact me</a> and let's talk more.</p>`;
   } else if (getLanguage === "albanian") {
     hello.innerHTML = `<span class="wave">👋</span> Ç'kemi, unë jam
     <br>
@@ -80,7 +79,7 @@ function setLanguage(getLanguage) {
     Momentalisht jam i hapur të punoj si Front-end Developer.
     </p>
     <p>
-    Më kontaktoni dhe le të flasim më tej.
+    <a href="mailto:aldikuci@gmail.com" class="highlighted-text">Më Kontaktoni</a> dhe le të flasim më tej.
     </p>`;
   }
 }
