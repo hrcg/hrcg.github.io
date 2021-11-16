@@ -93,6 +93,7 @@
 
 .header .menu-btn:checked ~ .menu {
   max-height: 240px;
+  box-shadow: 0px 11px 16px 0px rgba(0, 0, 0, 0.3);
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
