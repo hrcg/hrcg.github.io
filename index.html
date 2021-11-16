@@ -46,8 +46,15 @@
         <li><a class="nav-link" href="https://eraldkuci.dev/blog/" id="navBlog">BLOG</a></li>
         <li><a class="nav-link" href="https://eraldkuci.dev/#contact" id="navContact">CONTACT</a></li>
       </ul>
-      <label title="Theme" class="dayNight hidden">
-        <input type="checkbox" checked />
+      <label title="Toggle Theme" class="dayNight hidden">
+        <div class="night-mode-button">
+          <input type="checkbox" class="checkbox" id="night-mode">
+          <label for="night-mode" class="label">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="blob"></div>
+          </label>
+        </div>
         <div></div>
       </label>
     </header>
