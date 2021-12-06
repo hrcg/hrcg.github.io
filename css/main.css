@@ -740,7 +740,7 @@ body::-webkit-scrollbar-button {
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 480px) {
   #contact {
     margin: 5% 0% 10% 0%;
   }
