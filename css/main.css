@@ -742,7 +742,7 @@ body::-webkit-scrollbar-button {
 
 @media (max-width: 480px) {
   #contact {
-    margin: 5% 0% 10% 0%;
+    margin: 5% 5% 15% 5%;
   }
 }
 

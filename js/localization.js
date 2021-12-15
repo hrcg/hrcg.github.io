@@ -49,8 +49,7 @@ function setLanguage(getLanguage) {
   <p>
     <a href="mailto:aldikuci@gmail.com" class="highlighted-text">Contact me</a> and let's talk more.</p>`;
   } else if (getLanguage === "albanian") {
-    hello.innerHTML = `<span class="wave">👋</span> Ç'kemi, unë jam
-    <br>
+    hello.innerHTML = `<span class="wave">👋</span> Unë jam
     <b>
       <a
         class="underline"
