@@ -43,11 +43,7 @@ function setLanguage(getLanguage) {
     I plan to continue improving on it over time.`;
     p2desc.innerHTML = `Weather app that uses OpenWeatherMap API to get weather data.`;
     p3desc.innerHTML = `Dictionary website, powered by Pearson Dictionary API.`;
-    contact__title.innerHTML = `Reach Out To Me.`;
-    contact__subtext.innerHTML = `<p>
-    I'm currently open to work as a Front-end Developer.</p>
-  <p>
-    <a href="mailto:aldikuci@gmail.com" class="highlighted-text">Contact me</a> and let's talk more.</p>`;
+    contactTitle.innerHTML = "Let's Get in Touch.";
   } else if (getLanguage === "albanian") {
     hello.innerHTML = `<span class="wave">👋</span> Unë jam
     <b>
@@ -73,12 +69,6 @@ function setLanguage(getLanguage) {
     Kam në plan ta mirëmbaj dhe ta përmirësoj gjatë kohës.`;
     p2desc.innerHTML = `Aplikacion moti që përdor OpenWeatherMap API për të marrë të dhënat mbi motin.`;
     p3desc.innerHTML = `Website fjalori, fuqizuar nga Pearson Dictionary API.`;
-    contact__title.innerHTML = `Më Kontaktoni.`;
-    contact__subtext.innerHTML = `<p>
-    Momentalisht jam i hapur të punoj si Front-end Developer.
-    </p>
-    <p>
-    <a href="mailto:aldikuci@gmail.com" class="highlighted-text">Më Kontaktoni</a> dhe le të flasim më tej.
-    </p>`;
+    contactTitle.innerHTML = "Le të flasim më tej";
   }
 }
