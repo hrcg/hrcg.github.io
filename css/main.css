@@ -784,7 +784,7 @@ body::-webkit-scrollbar-button {
           justify-content: flex-start;
 }
 
-.contact-title {
+.contactTitle {
   color: white;
   font-size: 4.5rem;
   font-weight: 700;
@@ -793,14 +793,14 @@ body::-webkit-scrollbar-button {
 }
 
 @media (max-width: 39.9375em) {
-  .contact-title {
+  .contactTitle {
     font-size: 3rem;
     margin-right: 0%;
   }
 }
 
 @media (max-width: 63.9375em) {
-  .contact-title {
+  .contactTitle {
     font-size: 3.5rem;
     margin-right: 0%;
   }
@@ -1503,5 +1503,36 @@ i {
   transition: -webkit-transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out;
   transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+
+/* hr divider */
+.divider {
+  position: relative;
+  margin-top: 40px;
+  height: 1px;
+}
+
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(var(--text-color)), to(transparent));
+  background-image: linear-gradient(to right, transparent, var(--text-color), transparent);
+}
+
+.div-dot:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: var(--icons-color);
+  border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */
