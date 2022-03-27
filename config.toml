@@ -1,6 +1,7 @@
 baseURL = "https://hrcg.dev/"
 title = "hrcg blog"
 copyright = "©2022 hrcg dev"
+publishDir = "docs"
 
 languageCode = "en"
 hasCJKLanguage = true

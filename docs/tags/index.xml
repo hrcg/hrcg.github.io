@@ -1,0 +1,26 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on hrcg blog</title><link>https://hrcg.dev/tags/</link><description>Recent content in Tags on hrcg blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2022 hrcg dev</copyright><lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://hrcg.dev/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Set up a new Web Environment</title><link>https://hrcg.dev/2022/03/set-up-a-new-web-environment/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://hrcg.dev/2022/03/set-up-a-new-web-environment/</guid><description>&lt;p>This article is meant to guide you (&amp;amp; future me 🤷) into spinning up a working development environment as easily and as fast as possible.&lt;/p>
+&lt;p>I recently installed a new HDD onto my machine. I wanted a fresh start, so I completely reinstalled my system. Then I cursed myself for not taking notes on the different elements that make up my development environment before doing so.&lt;/p>
+&lt;p>Setting up a new development environment is something that happens quite often in our industry, whether you are starting a new job and your employer provides you with a new machine to work on, or whether you are a beginner diving into the world that is Web development.
+You can also write code blocks here!&lt;/p>
+&lt;h2 id="installing-nodejs">Installing Node.js&lt;/h2>
+&lt;p>If you plan to develop for the Web, you can&amp;rsquo;t pass on JavaScript-based tools. Whether it be for frontend or for backend development, you will need to have node.js installed on your machine to be able to run most of the development tools available. With node.js we can run JavaScript in the back-end which allows us to test our applications locally.&lt;/p>
+&lt;p>&lt;strong>Verify Installation&lt;/strong>&lt;/p>
+&lt;p>Open a command prompt (or PowerShell), and enter the following:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>node &lt;span style="color:#ff79c6">-&lt;/span> v; &lt;span style="color:#6272a4">// to verify node
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>npm &lt;span style="color:#ff79c6">-&lt;/span> v; &lt;span style="color:#6272a4">// to verify npm
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="configure-git">Configure Git&lt;/h2>
+&lt;p>Normally, Git should already be installed on your machine. You can check this by running git &amp;ndash;version. If not you can download and install it by clicking here&lt;/p>
+&lt;p>You can now enter your Git credentials (don&amp;rsquo;t forget to replace ‘John Doe’ with the correct values):&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-js" data-lang="js">&lt;span style="display:flex;">&lt;span>git config &lt;span style="color:#ff79c6">--&lt;/span>global user.name &lt;span style="color:#f1fa8c">&amp;#34;John Doe&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>git config &lt;span style="color:#ff79c6">--&lt;/span>global user.email johndoe@example.com
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="the-ide">The IDE&lt;/h2>
+&lt;p>This is it. After all these steps copy-pasting commands into the Terminal and waiting for downloads to be completed, we are finally going to install the last piece of the puzzle – the IDE. This acronym stands for Integrated Development Environment. Basically, it’s a place to edit code files that has life-changing features like syntax highlighting and autocompletion, which will drastically improve your web developing quality of life.&lt;/p>
+&lt;p>There are a lot of IDEs to choose from, all of them with their own pros and cons. Since most of them are viable choices, it really comes down to personal preference. For me, VS CODE is the swiss knife of code editors and my IDE of choice.&lt;/p>
+&lt;p>&lt;span class="image-container">&lt;a class="link" target="_blank" rel="noopener noreferrer"
+href="https://raw.githubusercontent.com/hrcg/gatsby-blog/master/content/blog/set-up-a-new-web-environment/web-env-sc.png">&lt;img loading="lazy" class="img" src="https://raw.githubusercontent.com/hrcg/gatsby-blog/master/content/blog/set-up-a-new-web-environment/web-env-sc.png" width="100%" height="auto"
+alt="Web development environment."/>&lt;/a>&lt;span class="caption">&lt;span class="title">Web development environment.&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+&lt;h2 id="conclusion">Conclusion&lt;/h2>
+&lt;p>I hope this guide was helpful and that it will allow you to speed up the process of setting up a new environment. This is, of course, not a comprehensive list of web development tools – I tried to mostly focus on the essentials.&lt;/p>
+&lt;p>&lt;strong>Thank you for reading and happy coding!&lt;/strong>&lt;/p></description></item></channel></rss>
