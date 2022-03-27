@@ -1,5 +1,5 @@
 baseURL = "https://www.hrcg.dev/"
-title = "hrcg blog"
+title = "HRCG Blog"
 copyright = "©2022 hrcg dev"
 publishDir = "docs"
 
