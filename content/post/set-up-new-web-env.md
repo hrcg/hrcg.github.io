@@ -1,12 +1,11 @@
 +++
 author = "hrcg"
-title = "Set up a new Web Environment"
+title = "Setting up a new Web Environment"
 date = "2022-03-27"
 description = "This article is meant to guide you (& future me 🤷) into spinning up a working development environment as easily and as fast as possible."
 tags = [
     "webdev",
     "setup",
-    "development",
     "tools",
 ]
 categories = [
@@ -24,8 +23,7 @@ This article is meant to guide you (& future me 🤷) into spinning up a working
 
 I recently installed a new HDD onto my machine. I wanted a fresh start, so I completely reinstalled my system. Then I cursed myself for not taking notes on the different elements that make up my development environment before doing so.
 
-Setting up a new development environment is something that happens quite often in our industry, whether you are starting a new job and your employer provides you with a new machine to work on, or whether you are a beginner diving into the world that is Web development.
-You can also write code blocks here!
+Setting up a new development environment is something that happens quite often in our industry, whether you are starting a new job and your employer provides you with a new machine to work on, or whether you are a beginner diving into the world that is <mark>Web development</mark>.
 
 ## Installing Node.js
 
@@ -59,9 +57,9 @@ This is it. After all these steps copy-pasting commands into the Terminal and wa
 
 There are a lot of IDEs to choose from, all of them with their own pros and cons. Since most of them are viable choices, it really comes down to personal preference. For me, VS CODE is the swiss knife of code editors and my IDE of choice.
 
-![Web development environment.](https://github.githubassets.com/images/modules/site/codespaces/illo-vscode.png "Web development environment.")
+![Web development environment.](https://github.githubassets.com/images/modules/site/codespaces/illo-vscode.png "<kbd><kbd>Web</kbd><kbd>Development</kbd><kbd>Environment</kbd></kbd>")
 
-## Conclusion
+## <mark>Conclusion</mark>
 
 I hope this guide was helpful and that it will allow you to speed up the process of setting up a new environment. This is, of course, not a comprehensive list of web development tools – I tried to mostly focus on the essentials.
 
