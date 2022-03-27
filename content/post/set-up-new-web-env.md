@@ -59,7 +59,7 @@ This is it. After all these steps copy-pasting commands into the Terminal and wa
 
 There are a lot of IDEs to choose from, all of them with their own pros and cons. Since most of them are viable choices, it really comes down to personal preference. For me, VS CODE is the swiss knife of code editors and my IDE of choice.
 
-![Web development environment.](https://raw.githubusercontent.com/hrcg/gatsby-blog/master/content/blog/set-up-a-new-web-environment/web-env-sc.png "Web development environment.")
+![Web development environment.](https://github.githubassets.com/images/modules/site/codespaces/illo-vscode.png "Web development environment.")
 
 ## Conclusion
 
