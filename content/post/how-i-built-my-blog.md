@@ -90,13 +90,15 @@ theme = "ghostwriter"
 
 You can freely customize the information in this file later.
 
-Now open up your terminal, type
+Now open up your terminal, and enter
 
 ```
 hugo server -D
 ```
 
 this will create a local instance of your site, open up localhost:1313 to access it.
+
+![Hugo Server Command](https://i.imgur.com/fhi0bCy.png "<kbd><kbd>hugo</kbd><kbd>server</kbd><kbd>output</kbd></kbd>")
 
 # Hosting
 
