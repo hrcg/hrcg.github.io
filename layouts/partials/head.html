@@ -7,19 +7,15 @@
 <meta name="color-scheme" content="light dark" />
 <meta name="supported-color-schemes" content="light dark" />
 
-<meta name="keywords" content="{{" .Site.Params.keywords }} />
 <meta
   name="description"
   content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}"
 />
-<meta name="author" content="{{" .Site.Params.author }} />
-<meta name="copyright" content="{{" .Site.Params.author }} />
-<meta http-equiv="content-language" content="zh,en" />
 
-{{ if .Params.noindex }}
-<meta name="robots" content="noindex,nofollow" />
-{{ end }} {{ $paginator := .Paginate (where .Site.RegularPages ".Params.post"
-"!=" false) }} {{ if .IsHome }} {{ if eq $paginator.PageNumber 1 }}
+<meta http-equiv="content-language" content="en" />
+
+{{ $paginator := .Paginate (where .Site.RegularPages ".Params.post" "!=" false)
+}} {{ if .IsHome }} {{ if eq $paginator.PageNumber 1 }}
 <link rel="canonical" href="{{ .Permalink }}" />
 {{ else }}
 <link
@@ -33,7 +29,6 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-<link rel="manifest" href="/site.webmanifest" />
 <meta name="msapplication-TileColor" content="#da532c" />
 <meta name="theme-color" content="#ffffff" />
 
