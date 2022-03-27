@@ -1,0 +1,12 @@
++++
+title = "About"
+description = "My blog space in the internet"
+date = "2022-03-27"
+aliases = ["about-us","about","contact"]
+type = "about"
+layout = "about"
+hidden = true
+author = "hrcg"
++++
+
+I'm a web developer based in Albania, follow my blog for random thoughts related to webdev and more.
