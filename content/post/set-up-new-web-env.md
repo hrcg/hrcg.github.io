@@ -1,7 +1,7 @@
 +++
 author = "hrcg"
 title = "Setting up a new Web Environment"
-date = "2022-03-27"
+date = "2022-03-18"
 description = "This article is meant to guide you (& future me 🤷) into spinning up a working development environment as easily and as fast as possible."
 tags = [
     "webdev",

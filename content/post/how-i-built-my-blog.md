@@ -1,7 +1,7 @@
 +++
 author = "hrcg"
 title = "How I built my blog"
-date = "2022-03-28"
+date = "2022-03-26"
 description = "If you've been thinking about creating a 👨‍💻dev blog for yourself, you're mostly likely overwhelmed by the sheer number of tools and technologies available for such a simple thing."
 tags = [
     "webdev",
