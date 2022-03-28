@@ -1,4 +1,55 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tools on HRCG Blog</title><link>https://www.hrcg.dev/tags/tools/</link><description>Recent content in tools on HRCG Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2022 hrcg dev</copyright><lastBuildDate>Sun, 27 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hrcg.dev/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Setting up a new Web Environment</title><link>https://www.hrcg.dev/2022/03/setting-up-a-new-web-environment/</link><pubDate>Sun, 27 Mar 2022 00:00:00 +0000</pubDate><guid>https://www.hrcg.dev/2022/03/setting-up-a-new-web-environment/</guid><description>&lt;p>This article is meant to guide you (&amp;amp; future me 🤷) into spinning up a working development environment as easily and as fast as possible.&lt;/p>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tools on HRCG Blog</title><link>https://www.hrcg.dev/tags/tools/</link><description>Recent content in tools on HRCG Blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>©2022 hrcg dev</copyright><lastBuildDate>Sat, 26 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://www.hrcg.dev/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>How I built my blog</title><link>https://www.hrcg.dev/2022/03/how-i-built-my-blog/</link><pubDate>Sat, 26 Mar 2022 00:00:00 +0000</pubDate><guid>https://www.hrcg.dev/2022/03/how-i-built-my-blog/</guid><description>&lt;p>If you&amp;rsquo;ve been thinking about creating a 👨‍💻dev blog for yourself, you&amp;rsquo;re mostly likely overwhelmed by the sheer number of tools and technologies available for such a simple thing.&lt;/p>
+&lt;p>I&amp;rsquo;ve been very interested for a long time on creating my own writing space on the internet, it&amp;rsquo;s something that I&amp;rsquo;ve wanted to do since I started my &lt;mark>webdev&lt;/mark> journey.&lt;/p>
+&lt;h2 id="the-humble-beginnings">The Humble Beginnings&lt;/h2>
+&lt;p>As of now there have been three versions of my blog, the first one was a simple &lt;kbd>HTML/CSS/JS&lt;/kbd> site (yes I know), painstakingly writing my posts in HTML, having to make a new HTML file for every single new post, it got tiring very quickly.&lt;/p>
+&lt;h2 id="powering-up">Powering up!&lt;/h2>
+&lt;p>The second one I made using the &lt;kbd>GatsbyJS&lt;/kbd> starter blog theme, which in my opinion was great, very customisable, pretty and suffice to say, very fast. But Gatsby took a toll on my poor old development laptop, so I had to again for the second time change.&lt;/p>
+&lt;h2 id="finding-the-one">Finding the one&lt;/h2>
+&lt;p>And here comes, &lt;mark>Hugo!&lt;/mark> A great static site generator, customisable and incredibly easy to use. It uses Markdown to write your blog posts, same as Gatsby but unlike Gatsby, Hugo is very lightweight. There are a wide array of out-of-the-box themes for Hugo which can be used immediately for your blog, no hassle at all.&lt;/p>
+&lt;h1 id="installation-and-hosting">Installation and Hosting&lt;/h1>
+&lt;p>Since I&amp;rsquo;m programming with a Windows device I used &lt;a href="https://chocolatey.org/"target="_blank" rel="noopener">Chocolatey&lt;/a> to install Hugo.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>choco install hugo
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Once Hugo is installed you create a new site by using the command&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>hugo new site blogname
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h1 id="picking-a-theme">Picking a theme&lt;/h1>
+&lt;p>Now before you can start you need to pick a theme. Hugo does not include a default theme for new sites.&lt;/p>
+&lt;p>There are a lot of choices on &lt;a href="https://themes.gohugo.io"target="_blank" rel="noopener">https://themes.gohugo.io&lt;/a>. My personal recommendation is &lt;a href="https://github.com/qdzhang/hugo-notepadium-mod"target="_blank" rel="noopener">the one I&amp;rsquo;m using for my own blog&lt;/a> but you can use whichever of the starter ones from the official Hugo site. There are details on how to install themes there.&lt;/p>
+&lt;h1 id="starting-writing">Starting writing&lt;/h1>
+&lt;p>Writing a new blog post is very easy, in the content folder create a new markdown file (.md file extension) and name it whatever you like, ex. &lt;kbd>your-blog-post-title.md&lt;/kbd>.&lt;/p>
+&lt;h1 id="finishing-off">Finishing off&lt;/h1>
+&lt;p>&lt;mark>config.toml&lt;/mark>&lt;/p>
+&lt;p>This is the Hugo configuration file, which tells Hugo some details of the configuration without you having to hardcode information in the theme.&lt;/p>
+&lt;p>Use this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>baseurl = &amp;#34;/&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>title = &amp;#34;My blog&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>theme = &amp;#34;ghostwriter&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[Params]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> mainSections = [&amp;#34;post&amp;#34;]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> intro = true
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> headline = &amp;#34;My headline&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> description = &amp;#34;My description&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> github = &amp;#34;https://github.com/XXX&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> twitter = &amp;#34;https://twitter.com/XXX&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> email = &amp;#34;XXX@example.com&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> opengraph = true
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> shareTwitter = true
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> dateFormat = &amp;#34;Mon, Jan 2, 2006&amp;#34;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>[Permalinks]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> post = &amp;#34;/:filename/&amp;#34;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can freely customize the information in this file later.&lt;/p>
+&lt;p>Now open up your terminal, and enter&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-fallback" data-lang="fallback">&lt;span style="display:flex;">&lt;span>hugo server -D
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>this will create a local instance of your site, open up localhost:1313 to access it.&lt;/p>
+&lt;p>&lt;span class="image-container">&lt;a class="link" target="_blank" rel="noopener noreferrer"
+href="https://i.imgur.com/fhi0bCy.png">&lt;img loading="lazy" class="img" src="https://i.imgur.com/fhi0bCy.png" width="100%" height="auto"
+alt="Hugo Server Command"/>&lt;/a>&lt;span class="caption">&lt;span class="title">&lt;kbd>&lt;kbd>hugo&lt;/kbd>&lt;kbd>server&lt;/kbd>&lt;kbd>output&lt;/kbd>&lt;/kbd>&lt;/span>&lt;/span>&lt;/span>&lt;/p>
+&lt;h1 id="hosting">Hosting&lt;/h1>
+&lt;p>This is very straightforward, use Github Pages! Yup, that easy, here&amp;rsquo;s a simple &lt;a href="https://gohugo.io/hosting-and-deployment/hosting-on-github/"target="_blank" rel="noopener">tutorial&lt;/a> on how to host your Hugo blog on Gh-pages, straight from the official Hugo site.&lt;/p>
+&lt;h2 id="markconclusionmark">&lt;mark>Conclusion&lt;/mark>&lt;/h2>
+&lt;p>I hope this tutorial can give you a little guidance if you are planning to start a new blog. Hugo is my favorite platform, but it&amp;rsquo;s not unique of course. There are a ton of other technologies out there.&lt;/p>
+&lt;p>Pick your favorite. In my opinion the platform does not matter as much as your content does. So, choose one and start writing!&lt;/p></description></item><item><title>Setting up a new Web Environment</title><link>https://www.hrcg.dev/2022/03/setting-up-a-new-web-environment/</link><pubDate>Fri, 18 Mar 2022 00:00:00 +0000</pubDate><guid>https://www.hrcg.dev/2022/03/setting-up-a-new-web-environment/</guid><description>&lt;p>This article is meant to guide you (&amp;amp; future me 🤷) into spinning up a working development environment as easily and as fast as possible.&lt;/p>
 &lt;p>I recently installed a new HDD onto my machine. I wanted a fresh start, so I completely reinstalled my system. Then I cursed myself for not taking notes on the different elements that make up my development environment before doing so.&lt;/p>
 &lt;p>Setting up a new development environment is something that happens quite often in our industry, whether you are starting a new job and your employer provides you with a new machine to work on, or whether you are a beginner diving into the world that is &lt;mark>Web development&lt;/mark>.&lt;/p>
 &lt;h2 id="installing-nodejs">Installing Node.js&lt;/h2>
