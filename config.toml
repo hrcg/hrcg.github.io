@@ -79,7 +79,7 @@ unsafe = true  # enable raw HTML in Markdown
 author = "hrcg"
 description = "hrcg's blog"
 style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
-logo = "https://i.imgur.com/et5na5h.png"
+logo = "https://i.imgur.com/oSAH9Ql.png"
 slogan = ""
 #license = "<a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/><img alt=Creative Commons License style=border-width:0 src=https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png /></a><br />This work is licensed under a <a rel=license href=http://creativecommons.org/licenses/by-nc-sa/4.0/>Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>."
 
