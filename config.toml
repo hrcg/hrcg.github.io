@@ -1,6 +1,6 @@
 baseURL = "https://www.hrcg.dev/"
-title = "slash input"
-copyright = "©2022 hrcg dev"
+title = "erald's blog"
+copyright = "©2022 erald"
 publishDir = "docs"
 
 languageCode = "en"
@@ -72,12 +72,12 @@ unsafe = true  # enable raw HTML in Markdown
   post = "/:year/:month/:title/"
 
 [author]
-    name = "hrcg"  # Change to your name
+    name = "erald"  # Change to your name
 
 
 [params]
-author = "hrcg"
-description = "hrcg's blog"
+author = "erald"
+description = "erald's blog"
 style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 logo = "https://i.imgur.com/oSAH9Ql.png"
 slogan = ""

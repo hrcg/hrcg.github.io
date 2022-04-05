@@ -9,4 +9,4 @@ hidden = true
 author = "hrcg"
 +++
 
-I'm a web developer based in Albania, follow my blog for random thoughts related to webdev and more.
+I'm a web developer based in [Albania](https://en.wikipedia.org/wiki/Albania), follow my blog for random thoughts related to webdev and more. Also check out my [portfolio](https://eraldkuci.dev/).
